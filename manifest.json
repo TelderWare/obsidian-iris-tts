@@ -1,0 +1,9 @@
+{
+  "id": "obsidian-iris-tts",
+  "name": "Iris TTS",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Read notes aloud using ElevenLabs, Fish Audio, Google Cloud, Azure, or Web Speech TTS.",
+  "author": "mgodd",
+  "isDesktopOnly": false
+}

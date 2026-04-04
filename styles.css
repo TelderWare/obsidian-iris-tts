@@ -1,0 +1,73 @@
+.tts-floating-bar {
+  position: fixed;
+  bottom: 48px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: var(--layer-popover, 1000);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  background: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  box-shadow: var(--shadow-s);
+  font-size: var(--font-ui-small);
+  color: var(--text-normal);
+}
+
+.tts-floating-bar .tts-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  padding: 4px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tts-floating-bar .tts-btn:hover {
+  color: var(--text-normal);
+  background: var(--background-modifier-hover);
+}
+
+.tts-floating-bar .tts-btn-small {
+  padding: 2px;
+}
+
+.tts-floating-bar .tts-btn-small svg {
+  width: 14px;
+  height: 14px;
+}
+
+.tts-progress {
+  width: 100px;
+  height: 4px;
+  background: var(--background-modifier-border);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.tts-progress-fill {
+  height: 100%;
+  width: 0%;
+  background: var(--interactive-accent);
+  border-radius: 2px;
+  transition: width 0.2s ease;
+}
+
+.tts-speed-group {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.tts-speed-label {
+  min-width: 32px;
+  text-align: center;
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  user-select: none;
+}
